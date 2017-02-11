@@ -98,12 +98,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\zzkluck.Toy\Zzkluck.Toy.Core.csproj">
-      <Project>{569dfa5e-3169-4510-a173-2652208e688b}</Project>
-      <Name>Zzkluck.Toy.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Assets\female-01.png" />
     <Resource Include="Assets\female-02.png" />
     <Resource Include="Assets\female-03.png" />
@@ -116,6 +110,12 @@
     <Content Include="PersonInfoFile.xml">
       <SubType>Designer</SubType>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Zzkluck.Toy.Core\Zzkluck.Toy.Core.csproj">
+      <Project>{569dfa5e-3169-4510-a173-2652208e688b}</Project>
+      <Name>Zzkluck.Toy.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

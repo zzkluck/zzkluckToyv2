@@ -55,7 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\zzkluck.Toy\Zzkluck.Toy.Core.csproj">
+    <ProjectReference Include="..\Zzkluck.Toy.Core\Zzkluck.Toy.Core.csproj">
       <Project>{569DFA5E-3169-4510-A173-2652208E688B}</Project>
       <Name>Zzkluck.Toy.Core</Name>
     </ProjectReference>
