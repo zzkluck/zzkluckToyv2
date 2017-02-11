@@ -43,6 +43,8 @@
     <Compile Include="BirthdayMoudle\BirthdayManager.cs" />
     <Compile Include="BirthdayMoudle\PersonInfo.cs" />
     <Compile Include="BirthdayMoudle\PersonInfoPlus.cs" />
+    <Compile Include="NetWorkTest\Client.cs" />
+    <Compile Include="NetWorkTest\Server.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
