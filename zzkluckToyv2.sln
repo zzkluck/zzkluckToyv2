@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzkluck.Toy", "zzkluck.Toy\zzkluck.Toy.csproj", "{569DFA5E-3169-4510-A173-2652208E688B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zzkluck.Toy.Core", "zzkluck.Toy\Zzkluck.Toy.Core.csproj", "{569DFA5E-3169-4510-A173-2652208E688B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzkluck.ToyTests", "zzkluck.ToyTests\zzkluck.ToyTests.csproj", "{FBB1A3C9-088B-46DC-A6AD-8CE8FB3703D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zzkluck.Toy.CoreTests", "zzkluck.ToyTests\Zzkluck.Toy.CoreTests.csproj", "{FBB1A3C9-088B-46DC-A6AD-8CE8FB3703D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzkluck.Toy.GUI", "zzkluck.Toy.GUI\zzkluck.Toy.GUI.csproj", "{4230DEE7-6567-45C6-A16B-77F95D416335}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zzkluck.Toy.GUI", "zzkluck.Toy.GUI\Zzkluck.Toy.GUI.csproj", "{4230DEE7-6567-45C6-A16B-77F95D416335}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

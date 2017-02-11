@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zzkluck.Toy
+namespace Zzkluck.Toy.Core.BirthdayMoudle
 {
 	public class PersonInfoPlus : PersonInfo
 	{

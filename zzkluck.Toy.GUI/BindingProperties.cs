@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zzkluck.Toy.GUI
+namespace Zzkluck.Toy.GUI
 {
-	public class SomeInformation
+	public class BindingProperties
 	{
 		private string _nowDateTime;
 
@@ -16,7 +16,7 @@ namespace zzkluck.Toy.GUI
 			set { _nowDateTime = value; }
 		}
 
-		public SomeInformation(string now)
+		public BindingProperties(string now)
 		{
 			_nowDateTime = now;
 		}

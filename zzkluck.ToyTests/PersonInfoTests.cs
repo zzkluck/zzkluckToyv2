@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using zzkluck.Toy;
+using Zzkluck.Toy.Core.BirthdayMoudle;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zzkluck.Toy.Tests
+namespace Zzkluck.Toy.CoreTests
 {
 	[TestClass()]
 	public class PersonInfoTests
@@ -47,8 +47,8 @@ namespace zzkluck.Toy.Tests
 			Assert.AreEqual("zzk", string.Format("{0}", p1));
 			Assert.AreEqual("zzk", string.Format("{0:N}", p1));
 			Assert.AreEqual("male", string.Format("{0:S}", p1));
-			Assert.AreEqual(p1.Birthday.ToString(), string.Format("{0:B}", p1));
-			Assert.AreEqual("zzk,male,"+p1.Birthday.ToString(), string.Format("{0:INFO}", p1));
+			Assert.AreEqual(p1.Birthday.ToShortDateString(), string.Format("{0:B}", p1));
+			Assert.AreEqual("zzk,male,"+p1.Birthday.ToShortDateString(), string.Format("{0:INFO}", p1));
 		}
 
 		[TestMethod()]

@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace zzkluck.Toy
+namespace Zzkluck.Toy.Core.BirthdayMoudle
 {
+/// <summary>
+/// 抽象了基础的个人信息
+/// </summary>
 	public class PersonInfo:
 		IComparable<PersonInfo>,ICloneable,IFormattable
 	{
@@ -63,7 +66,7 @@ namespace zzkluck.Toy
 		}
 		#endregion
 
-		#region InterfaceAndOverrideMethod
+		#region OverrideMethod
 		public int CompareTo(PersonInfo other)
 		{
 			if (ReferenceEquals(other,null)) return 1;

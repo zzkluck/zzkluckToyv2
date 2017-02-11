@@ -6,8 +6,8 @@
     <ProjectGuid>{FBB1A3C9-088B-46DC-A6AD-8CE8FB3703D5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>zzkluck.ToyTests</RootNamespace>
-    <AssemblyName>zzkluck.ToyTests</AssemblyName>
+    <RootNamespace>Zzkluck.Toy.CoreTests</RootNamespace>
+    <AssemblyName>Zzkluck.Toy.CoreTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -55,9 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\zzkluck.Toy\zzkluck.Toy.csproj">
+    <ProjectReference Include="..\zzkluck.Toy\Zzkluck.Toy.Core.csproj">
       <Project>{569DFA5E-3169-4510-A173-2652208E688B}</Project>
-      <Name>zzkluck.Toy</Name>
+      <Name>Zzkluck.Toy.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

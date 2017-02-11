@@ -7,8 +7,8 @@
     <ProjectGuid>{569DFA5E-3169-4510-A173-2652208E688B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>zzkluck.Toy</RootNamespace>
-    <AssemblyName>zzkluck.Toy</AssemblyName>
+    <RootNamespace>Zzkluck.Toy.Core</RootNamespace>
+    <AssemblyName>Zzkluck.Toy.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BirthdayManager.cs" />
-    <Compile Include="PersonInfo.cs" />
-    <Compile Include="PersonInfoPlus.cs" />
+    <Compile Include="BirthdayMoudle\BirthdayManager.cs" />
+    <Compile Include="BirthdayMoudle\PersonInfo.cs" />
+    <Compile Include="BirthdayMoudle\PersonInfoPlus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

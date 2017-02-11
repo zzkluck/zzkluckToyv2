@@ -7,8 +7,8 @@
     <ProjectGuid>{4230DEE7-6567-45C6-A16B-77F95D416335}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>zzkluck.Toy.GUI</RootNamespace>
-    <AssemblyName>zzkluck.Toy.GUI</AssemblyName>
+    <RootNamespace>Zzkluck.Toy.GUI</RootNamespace>
+    <AssemblyName>Zzkluck.Toy.GUI</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,7 +56,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="SomeInformation.cs" />
+    <Compile Include="BindingProperties.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,9 +98,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\zzkluck.Toy\zzkluck.Toy.csproj">
+    <ProjectReference Include="..\zzkluck.Toy\Zzkluck.Toy.Core.csproj">
       <Project>{569dfa5e-3169-4510-a173-2652208e688b}</Project>
-      <Name>zzkluck.Toy</Name>
+      <Name>Zzkluck.Toy.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

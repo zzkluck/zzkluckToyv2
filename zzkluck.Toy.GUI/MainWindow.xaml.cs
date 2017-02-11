@@ -12,11 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using zzkluck.Toy;
+using Zzkluck.Toy.Core.BirthdayMoudle;
 using System.Xml;
 using System.Collections.ObjectModel;
 
-namespace zzkluck.Toy.GUI
+namespace Zzkluck.Toy.GUI
 {
 	/// <summary>
 	/// MainWindow.xaml 的交互逻辑
@@ -24,7 +24,7 @@ namespace zzkluck.Toy.GUI
 	public partial class MainWindow : Window
 	{
 		static string XmlInfomationFilePath = "../../PersonInfoFile.xml";
-		SomeInformation info = new SomeInformation("A1  最后编译于"+DateTime.Now.ToString());
+		BindingProperties Bindings = new BindingProperties("A1  最后编译于"+DateTime.Now.ToString());
 
 		BirthdayManager bm = new BirthdayManager();
 		public MainWindow()
@@ -33,7 +33,7 @@ namespace zzkluck.Toy.GUI
 
 			this.Loaded += MainWindow_Loaded;
 			GridBirthday.DataContext = bm.Persons;
-			GridMain.DataContext = info;
+			GridMain.DataContext = Bindings;
 
 			LstBxPerson.Background = new SolidColorBrush(Color.FromArgb(0xC0, 0xF0, 0xF8, 0xFF)); 
 		}

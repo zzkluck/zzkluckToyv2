@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace zzkluck.Toy
+namespace Zzkluck.Toy.Core.BirthdayMoudle
 {
 	public class BirthdayManager
 	{
